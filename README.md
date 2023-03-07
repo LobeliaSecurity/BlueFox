@@ -32,7 +32,7 @@ npm run build
 import BlueFox from "bluefox.es.js";
 ```
 
-### for other Domains (ex: scraping)
+### for other Domains (ex: automate for some E2E testing, scraping)
 
 https://github.com/LobeliaSecurity/BlueFox/tree/main
 
@@ -47,6 +47,7 @@ let blueFox = new BlueFox("http://127.0.0.1/burrow"); // your endpoint to report
 // save -> ret
 // capture -> <removed>
 
+// Promice
 blueFox.do(
     {
         "actions":[
