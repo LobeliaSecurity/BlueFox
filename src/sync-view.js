@@ -4,6 +4,7 @@
   let log = (...args) => {
     console.log("sync-view.js", ...args);
   };
+  let QueryWalker = require("./query-walker.js");
   (async () => {
     let getProperty = (_path, _dict) => {
       let _key = _path.split(".")[0];

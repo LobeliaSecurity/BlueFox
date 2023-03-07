@@ -1,0 +1,29 @@
+{
+  "name": "bluefox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/blue-fox.js",
+  "scripts": {
+    "build": "node -e \"require('fs').copyFileSync('./src/blue-fox.js', './dist/bluefox.es.js')\" && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LobeliaSecurity/BlueFox.git"
+  },
+  "keywords": [
+    "javascript",
+    "automation",
+    "rpa",
+    "web"
+  ],
+  "author": "LobeliaSecurity™",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/LobeliaSecurity/BlueFox/issues"
+  },
+  "homepage": "https://github.com/LobeliaSecurity/BlueFox#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

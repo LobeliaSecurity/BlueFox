@@ -1,7 +1,7 @@
 // © LobeliaSecurity™
 // https://github.com/LobeliaSecurity
 
-class QueryWalker {
+export default class {
   constructor(oDict, rootElement) {
     this.oDict = oDict;
     this.rootElement = rootElement;
