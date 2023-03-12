@@ -71,9 +71,7 @@ export default class {
       push: async (action) => {
         let e = document.querySelector(action.target);
         if (e) {
-          let push = {
-            target: action.target,
-          };
+          let push = action;
           if (action.property) {
             let push_property = {};
             for (let propertyPath in action.property) {
